@@ -26,7 +26,7 @@ public class SessionInterceptor implements HandlerInterceptor {
     @Override
     public boolean preHandle(HttpServletRequest request,
                              HttpServletResponse response, Object handler) throws Exception{
-/*        //获取请求目标资源路径
+       //获取请求目标资源路径
         String path = request.getRequestURI();
         if(path.contains("login")){
             return  true;
@@ -71,8 +71,8 @@ public class SessionInterceptor implements HandlerInterceptor {
 
                 }
             }
-        }*/
-return true;
+        }
+
     }
 
 
